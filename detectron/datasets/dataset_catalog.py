@@ -201,6 +201,30 @@ _DATASETS = {
             _DATA_DIR + '/VOC2012/annotations/voc_2012_val.json',
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'RobotX_2048_train': {
+        _IM_DIR:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_2048px/images',
+        _ANN_FN:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_2048px/annotations/COCOformat/instances_2048_train.json'
+    },
+    'RobotX_2048_val': {
+        _IM_DIR:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_2048px/images',
+        _ANN_FN:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_2048px/annotations/COCOformat/instances_2048_val.json'
+    },
+    'RobotX_512_train': {
+        _IM_DIR:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_512px/images',
+        _ANN_FN:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_512px/annotations/COCOformat/instances_512_train.json'
+    },
+    'RobotX_512_val': {
+        _IM_DIR:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_512px/images',
+        _ANN_FN:
+            _DATA_DIR + '/home/ubuntu/Documents/RobotX/RobotX_Image_Data/RobotX_512px/annotations/COCOformat/instances_512_val.json'
     }
 }
 
